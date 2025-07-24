@@ -165,7 +165,7 @@ source .env 2>/dev/null || true
 
 # Set defaults if not in environment
 API_HOST=${API_HOST:-"0.0.0.0"}
-API_PORT=${API_PORT:-8000}
+API_PORT=${API_PORT:-9639}
 API_WORKERS=${API_WORKERS:-4}
 
 echo "🌐 Starting production server..."
