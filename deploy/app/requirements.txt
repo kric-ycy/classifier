@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+pandas
+openpyxl
+transformers
+sentence-transformers
+psycopg2-binary
+psycopg2
