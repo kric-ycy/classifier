@@ -178,11 +178,4 @@ echo ""
 
 # Start the production server with uvicorn
 cd app/api
-uvicorn embedding:app \
-    --host $API_HOST \
-    --port $API_PORT \
-    --workers $API_WORKERS \
-    --log-level info \
-    --access-log \
-    --loop uvloop \
-    --http httptools
+python embedding.py 
